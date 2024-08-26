@@ -5,7 +5,8 @@
 }
 
 :root{
-    --a--color:#FFDC00 ;
+    --a--color:#F5CB00 ;
+    --b--color:#E6E2DD;
 }
 
 #menuPrincipal{
@@ -89,8 +90,11 @@ p{
 }
 
 #articulo1{
-    height: 20vh;
-    background-color: gray;
+    position: relative;
+
+    width: 90%;
+    height: auto;
+    background-color: var(--b--color);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -103,6 +107,10 @@ p{
     flex-direction: column;
 }
 
+#texto2{
+    padding: 20px;
+}
+
 #p1{
     width: 500px;
 }
@@ -112,4 +120,7 @@ p{
 }
 
 
+footer{
+    background-color: black;
+}
   
