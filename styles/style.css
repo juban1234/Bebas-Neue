@@ -7,6 +7,7 @@
 :root{
     --a--color:#F5CB00 ;
     --b--color:#E6E2DD;
+    --c--color:#000000;
 }
 
 #menuPrincipal{
@@ -16,8 +17,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-}
+    position: sticky;
+    top: 0;
+    z-index: 1;
 
+}
 
 
 #contenedor-menu{
@@ -35,12 +39,18 @@
     
 }
 
+
+.centrar{
+    align-items: center;
+}
+
+
 .titulos1{
     width: 500px;
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
+    font-weight: 750;
     font-style: normal;
-    font-size: 50px;
+    font-size: 75px;
 }
 
 p{
@@ -111,14 +121,43 @@ p{
     padding: 20px;
 }
 
+
+.seccion1{
+    background-color: var(--a--color);
+    height: 110vh;
+}
+#secc1{
+    width: 700px;
+    font-size: 70px;
+    position: relative;
+    left: 30px;
+    top: 190px;
+}
+
+#img05-1{
+    position: relative;
+    left: 350px;
+    top: 50px;
+    padding: 0px 0px 50px;
+}
+
 #p1{
     width: 500px;
+    position: relative;
+    top: 210px;
+    left: 20px;
 }
 
-.seccion-amarillo{
-    background-color: var(--a--color);
+#secc1-buton{
+    background-color: var(--c--color);
+    color: var(--b--color);
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: 390px;
+    left: 20px;
 }
-
 
 footer{
     background-color: black;
