@@ -53,6 +53,16 @@
     font-size: 75px;
 }
 
+.titulos2{
+    width: 500px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 850;
+    font-style: normal;
+    font-size: 35px;
+}
+
+
+
 p{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -67,6 +77,7 @@ p{
 
 #encabesado1{
     background-color: white;
+    height: 55vh;
 }
 
 #imagen1{
@@ -100,15 +111,37 @@ p{
 }
 
 #articulo1{
-    position: relative;
-
-    width: 90%;
-    height: auto;
+    width: 100%;
+    height: 400px;
+    box-shadow: 15px 20px 20px 0px #beaaaa;    
     background-color: var(--b--color);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+#titulo-header{
+    color: var(--a--color);
+    width: 270px;
+    padding: 0px 0px 15px 0px;
+}
+
+#boton-header{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto; 
+    padding: 15px 0px 0px 0px;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--c--color);
+}
+
+#posicion-secc1{
+    width: 90%;
+    position: relative;
+    top: 120px;
+    left: 100px;
 }
 
 #texto1{
@@ -158,6 +191,187 @@ p{
     bottom: 390px;
     left: 20px;
 }
+
+.secc2{
+    height: 85vh;
+}
+
+#secc2-aside{
+    background-color: var(--b--color);
+    box-shadow: 15px 20px 20px 0px #b1a8a8;   
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    position: relative;
+    top: 80px;
+    left: 180px;
+}
+
+#secc2-image1{
+    width: 550px;
+    height: 650px;
+}
+
+#secc2-image2{
+    width: 330px;
+    height: 300px;
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+
+#secc2-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+#secc2-titulo{
+    width: 300px;
+    font-size: 55px;
+    font-family: "Bebas Neue", sans-serif;
+    color: var(--a--color);
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+
+#secc2-p{
+    font-size: 15px;
+    padding: 5px 0px 20px 0px;
+    width: 300px;
+    position: relative;
+    top: 35px;
+    left: 52px;
+}
+
+#secc2-buton{
+    background-color: var(--c--color);
+    color: var(--b--color);
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 52px;
+}
+
+.secc3{
+    height: 85vh;
+    background-color: var(--c--color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#secc3-titulo{
+    color: var(--a--color);
+    font-weight: 200;
+    font-size: 33px;
+    text-align: center
+}
+
+#secc3-imagen{
+    width: 1000px;
+}
+
+#secc3-texto{
+    color: var(--b--color);
+    width: 700px;
+}
+
+.secc3-boton{
+    border-style: solid;
+    border-color: transparent;
+    background-color: var(--a--color);
+    width: 130px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.secc4{
+    width: 90%;
+    height: 80vh;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#contenedor-secc4{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+}
+
+#secc4-image{
+    width: 700px;
+    height: 700px;
+}
+
+#secc4-titulo{
+    text-align: center;
+}
+
+#secc4-texto{
+    width: 500px;
+    padding: 15px 0px;
+}
+
+.secc5{
+    height: 80vh;
+    background-color: var(--b--color);
+}
+
+#secc5-contenedor{
+    
+}
+
+#secc5-posicion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around ;
+
+}
+
+#secc5-h2{
+    width: 500px;
+    font-size: 50px;
+}
+
+#secc5-p{
+    width: 500px;
+    padding: 15px 0px 15px 0px;
+}
+
+#secc5-imagen{
+    width: 700px;
+    position: relative;
+    top: 30px;
+    right: 40px;
+}
+
+.secc6{
+    background-color: white;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#secc6-formulario{
+    background-color: var(--c--color );
+}
+
+.secc7{
+    background-color: var(--a--color);
+}
+
+
 
 footer{
     background-color: black;
