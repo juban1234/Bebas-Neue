@@ -62,7 +62,7 @@
             <div id="secc2-texto">
                 <h1  id="secc2-titulo">%HAPPINESS</h1>
                 <P id="secc2-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut rem totam molestias, non voluptatum ratione fugit culpa accusamus in est aut cumque libero alias ipsum quae optio, quia voluptatibus dolores.</P>
-                <button id="secc2-buton">Read More</button>
+                <button class="secc2-buton">Read More</button>
                 <img src="assets/images/graph01.png" alt="graph01" id="secc2-image2">
             </div>
         </aside>
@@ -100,46 +100,84 @@
 
             <!-- seccion 6-->
     <section class="secc6">
-        <div id="secc6-formulario">
-            <input type="text" >
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <input type="text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime autem illo vero consectetur officia assumenda optio, ipsa mollitia libero. Libero atque quaerat dolorum, autem quam quidem provident expedita cupiditate hic?</p>
-
+        <div id="contenido-secc6">
+            <div id="secc6-formulario">
+                    <div id="form-group1">
+                        <div>
+                            <label for="name"> <p>Nombre</p></label>
+                            <input type="text" class="formulario">
+                        </div>
+                        <div>
+                            <label for="surname"><p>Apellido</p></label>   
+                            <input type="text" class="formulario">
+                        </div>
+                    </div>
+                    <div id="form-group2">
+                        <div>
+                            <label for="email"><p>Email</p></label>
+                            <input type="email" class="formulario" id="email">
+                        </div>
+                
+                        <div>
+                            <label for="password"><p>Contraseña</p></label>
+                            <input type="password" class="formulario" id="password">
+                        </div>
+        
+                        <div>
+                            <label for="message"><p>Mensaje</p></label>
+                            <textarea rows="4" class="formulario" id="Mensaje"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                <p id="color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime autem illo vero consectetur officia assumenda optio, ipsa mollitia libero. Libero atque quaerat dolorum, autem quam quidem provident expedita cupiditate hic?</p>
+            </div>
+            <div id="secc6-text">
+                <h2 class="titulos2" id="secc6-titulo">SUBSCRIBE TO OUR NEWSLETTER</h2>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, nostrum quos fuga amet ipsam eaque perspiciatis, illum delectus magnam excepturi rem quas facilis harum? Velit et aspernatur odio suscipit molestias.</P>
+                <br>    
+                <button class="secc6-buton">suscribe</button>
+            </div>
         </div>
-        <h2 class="titulos2">SUBSCRIBE TO OUR NEWSLETTER</h2>
-        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, nostrum quos fuga amet ipsam eaque perspiciatis, illum delectus magnam excepturi rem quas facilis harum? Velit et aspernatur odio suscipit molestias.</P>
-        <button>suscribe</button>
     </section>
 
         <!-- seccion 7-->
         <section class="secc7">
-            <h2 class="titulos2">contact</h2>
-            <p>lorem ipsum</p>
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.2933695327138!2d-75.67075668899803!3d4.541117743000359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5aaa70689d1%3A0x46074d66ee20f3a2!2sSENA%20Centro%20de%20Comercio%20y%20Turismo%20Armenia%20Quindio!5e0!3m2!1ses-419!2sco!4v1724693457303!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <button>Contact</button>
+            <h2 id="secc7-titulo">contact</h2>
+            <br>
+            <p>lorem ipsum bibvowmd jiobq ohfqnohw oeifoiqh</p>
+            <br>
+            <img src="assets/images/map.png" alt="mapa">
+            <br>
+            <button id="secc7-boton">Contact</button>
         </section>
     <footer>
-        <img src="assets/images/logoWhite.png" alt="logoWhite">
-        <ul>
-            <li>Happiness</li>
-            <li>Books</li>
-            <li>About us</li>
-            <li>Contact</li>
-            <li>Policy privacy</li>
-            <li>cookies</li>
-            <li>FAQs</li>
-        </ul>
+        <img src="assets/images/logoWhite.png" alt="logoWhite" id="logoWhite">
+        <div id="footer-lista1">
+            <div class="footer-lista">
+                <p>Happiness</p>
+                <p>Books</p>
+                <p>About us</p>
+                <p>Contact</p>    
+            </div>
+            <div class="footer-lista">
+                <p>Policy privacy</p>
+                <p>cookies</p>
+                <p>FAQs</p>
+            </div>
+        </div>
 
-        <hr>    
-        <p>copyright | YourName</p>
-        <img src="assets/images/Instagram.png" alt="Instagram">
-        <img src="assets/images/Facebook.png" alt="Facebook">
-        <img src="assets/images/Twitter copy.png" alt="Twitter">
+        <div id="linea">
+            <hr>
+            <div id="link">
+                <p>copyright | YourName</p>
+                <div>
+                    <img src="assets/images/Instagram.png" alt="Instagram">
+                    <img src="assets/images/Facebook.png" alt="Facebook">
+                    <img src="assets/images/Twitter copy.png" alt="Twitter">
+                </div>
+            </div>
+        </div>
+
     </footer>
 </body>
 </html>

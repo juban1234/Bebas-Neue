@@ -16,7 +16,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0px 20px;
+    box-shadow: 0px 3px 10px 0px gray;  
     position: sticky;
     top: 0;
     z-index: 1;
@@ -244,7 +245,7 @@ p{
     left: 52px;
 }
 
-#secc2-buton{
+.secc2-buton{
     background-color: var(--c--color);
     color: var(--b--color);
     font-size: 18px;
@@ -355,23 +356,153 @@ p{
 }
 
 .secc6{
-    background-color: white;
-    height: 70vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido-secc6{
     display: flex;
     flex-direction: row;
 }
 
 #secc6-formulario{
     background-color: var(--c--color );
+    height: 500px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.formulario{
+    border-style: solid ;
+    border-color: white;
+    background-color: transparent;
+    height: 35px;
+}
+
+#form-group1{
+    color: white;
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+}
+
+#form-group2{
+    color: white;
+    width: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#password{
+    width: 350px;
+}
+
+#email{
+    width: 350px;
+}
+
+#Mensaje{
+    height: 100px;
+    width: 350px;
+
+}
+
+#color{
+    color: white;
+    width: 380px;
+    font-size: 17px;
+}
+
+#secc6-text{
+    width: 600px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+#secc6-titulo{
+    color: var(--a--color);
+    font-size: 45px;
+    padding: 10px 0px;
+}
+
+.secc6-buton{
+    background-color: var(--c--color);
+    color: var(--b--color);
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    
+}
+
 
 .secc7{
     background-color: var(--a--color);
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+#secc7-titulo{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 55px;
+}
 
+#secc7-boton{
+    background-color: var(--c--color);
+    color: white;
+    font-size: 28px;
+    height: 55px;
+    width: 200px;
+}
 
 footer{
     background-color: black;
+    height: 40vh;
 }
-  
+
+#logoWhite{
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+#footer-lista1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 80px;
+}
+
+.footer-lista{
+    color: var(--a--color);
+    padding: 0px 20px;
+}
+
+#linea{
+    width: 90%;
+    padding: 20px 0px 20px 90px;
+    position: relative;
+    top: 80px;
+}
+
+#link{
+    color: var(--a--color);
+    padding: 20px 0px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
