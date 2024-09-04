@@ -510,7 +510,7 @@ footer{
 
 
     #menuPrincipal{
-        width: 343px;
+        width: 350px;
         padding: 0px 4px;
     }
 
@@ -519,7 +519,7 @@ footer{
     }
 
     .button-menu{
-        padding: 0px 5px;
+        padding: 0px 1px;
         font-size: 13px;
     }
 
