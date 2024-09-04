@@ -510,7 +510,7 @@ footer{
 
 
     #menuPrincipal{
-        width: 350px;
+        width: 343px;
         padding: 0px 4px;
     }
 
@@ -520,6 +520,7 @@ footer{
 
     .button-menu{
         padding: 0px 5px;
+        font-size: 13px;
     }
 
     .titulos1{
@@ -542,7 +543,7 @@ footer{
     }
 
     #subencabesado1 {
-        padding: 15px 0px;
+        padding: 5px 0px 0px 10px;
         width: 350px;
         position: static;
     }
@@ -605,7 +606,7 @@ footer{
     }
 
     .secc2{
-        height: 50vh;
+        height: 350px;
     }
 
     #secc2-titulo{
@@ -638,7 +639,7 @@ footer{
     }
 
     p{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     #secc3-imagen{
@@ -698,7 +699,7 @@ footer{
     }
 
     #secc5-p{
-        width: 350px;
+        width: 340px;
     }
 
     #secc6{
@@ -706,18 +707,23 @@ footer{
     }
 
     #contenido-secc6{
-        height: auto;
+        height: 900px;
         width: 350px;
+        position: relative;
+        bottom: 150px;
         flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start
     }
 
     #secc6-titulo{
-        font-size: 30px;
+        font-size: 25px;
         padding: 0px;
     }
 
     #secc6-text{
-        width:300px;
+        padding: 10px 5px;
+        width: 300px;
         left: 0px;
         top: 0px;
     }
@@ -726,6 +732,12 @@ footer{
         height: 400px;
         width: 350px
     }
+
+    .letra-secc6{
+        width: 170px;
+        font-size: 13px;
+    }
+
     #mapa{
         width: 300px;
         height: 300px;
@@ -756,7 +768,15 @@ footer{
     }
 
     .secc7{
-        height: 50vh;
+        height: 40vh;
+    }
+
+    #secc7-titulo{
+        font-size: 35px;
+    }
+
+    #secc7-boton{
+        font-size: 18px;
     }
 
     footer{
