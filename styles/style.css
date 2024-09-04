@@ -297,7 +297,6 @@ p{
     padding: 30px 50px;
     display: flex;
     flex-direction: row;
-    position: relative;
 }
 
 #contenedor-secc4{
@@ -509,6 +508,12 @@ footer{
 
 @media (max-width: 480px){
 
+
+    #menuPrincipal{
+        width: 350px;
+        padding: 0px 4px;
+    }
+
     #contenedor-menu{
         position: static;
     }
@@ -533,6 +538,7 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        
     }
 
     #subencabesado1 {
@@ -558,46 +564,203 @@ footer{
     }
 
     #texto1{
-        width: 350px;
+        width: 300px;
         align-items: flex-start;
-        justify-content: flex-start
-        
     }
 
     .texto2{
         display: none;
     }
 
+    .seccion1{
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     #secc1-buton{
-        position: relative;
-        top: 200px;
-        left: 20px;
+        width: 300px;
+        position: static
     }
 
     #secc1 {
-        width: 400px;
-        font-size: 50px;
-        left: 30px;
-        top: 100px;
+        margin: 0;
+        position: static;
+        width: 320px;
+        font-size: 33px;
     }
 
     #p1 {
-        width: 450px;
-
-        top: 210px;
-        left: 20px;
+        position: static;
+        margin: 0;
+        width: 320px;
+        padding: 10px 0px;
+        
     }
 
     #img05-1{
         display: none;
     }
 
+    .secc2{
+        height: 50vh;
+    }
+
+    #secc2-titulo{
+        font-size: 33px;
+    }
+
+    #secc2-image1{
+        display: none;
+        
+    }
+
+
+    #secc2-aside{
+        background-color:white;
+        box-shadow: none;
+        position: static;
+    }
+
+    #secc2-image2{
+        display: none;
+    }
+
+    .secc3{
+        height: auto;
+    }
+
+    #secc3-texto{
+        padding: 5px 0px;
+        width: 350px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    #secc3-imagen{
+        padding: 5px 0px;
+        width: 350px;
+    }
+
+    .secc4{
+        height: 250px;
+        padding: 10px 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
     #secc4-image {
         display: none;
     }
 
-    .secc4{
+    #secc4-texto{
+        width: 350px;
+        text-align: center;
+    }
+
+    #contenedor-secc4{
+        width: 350px;
+        position: static;
+    }
+
+    .titulos2{
+        width: 350px;
+    }
+
+    #secc5-imagen{
+        display: none;
+    }
+
+    #secc5-posicion {
+        position: static;
+    }
+    
+    .secc5{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #secc5-h2{
+        width: 350px;
+        font-size: 35px;
+    }
+    
+    #secc5-contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #secc5-p{
+        width: 350px;
+    }
+
+    #secc6{
+        height: 600px;
+    }
+
+    #contenido-secc6{
+        height: 600px;
+        width: 350px;
+        flex-direction: column-reverse;
+    }
+
+    #secc6-titulo{
+        font-size: 30px;
         padding: 0px;
     }
 
+    #secc6-text{
+        width:300px;
+        left: 0px;
+        top: 0px;
+    }
+
+    #secc6-formulario{
+        height: 400px;
+        width: 350px
+    }
+    #mapa{
+        width: 300px;
+        height: 300px;
+    }
+
+    #form-group1{
+        width: 330px;
+    }
+
+    #form-group2{
+        width: 330px;
+    }
+
+    .formulario{
+        width: 163px;
+    }
+
+
+    #email,#password,#Mensaje{
+        width: 330px;
+    }
+
+    #color{
+        width: 330px;
+        height: 270px;
+        font-size: 13px;
+
+    }
+
+    footer{
+        height: 400px;
+    }
+
+    #linea{
+        padding: 0px 0px 5px 10px;
+        top: 90px;
+    }
 }
