@@ -510,7 +510,7 @@ footer{
 
 
     #menuPrincipal{
-        width: 350px;
+        width: auto;
         padding: 0px 4px;
     }
 
@@ -631,6 +631,7 @@ footer{
 
     .secc3{
         height: auto;
+        padding: 10px 0px;
     }
 
     #secc3-texto{
@@ -769,6 +770,7 @@ footer{
 
     .secc7{
         height: 40vh;
+        padding: 10px 0px;
     }
 
     #secc7-titulo{
