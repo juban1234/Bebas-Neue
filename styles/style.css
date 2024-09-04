@@ -702,11 +702,11 @@ footer{
     }
 
     #secc6{
-        height: 600px;
+        height: 800px;
     }
 
     #contenido-secc6{
-        height: 600px;
+        height: auto;
         width: 350px;
         flex-direction: column-reverse;
     }
@@ -753,6 +753,10 @@ footer{
         height: 270px;
         font-size: 13px;
 
+    }
+
+    .secc7{
+        height: 50vh;
     }
 
     footer{
