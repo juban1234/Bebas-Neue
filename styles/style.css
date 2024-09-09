@@ -294,9 +294,9 @@ p{
 .secc4{
     width: 90%;
     height: 80vh;
-    padding: 30px 50px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 #contenedor-secc4{
@@ -309,7 +309,8 @@ p{
 }
 
 #secc4-image{
-    width: 700px;
+    padding: 50px 0px;
+    width: 800px;
     height: 700px;
 }
 
@@ -544,7 +545,7 @@ footer{
     }
 
     #subencabesado1 {
-        padding: 5px 0px 0px 10px;
+        padding: 0px;
         width: 350px;
         position: static;
     }
@@ -619,6 +620,11 @@ footer{
         
     }
 
+    #secc2-p{
+        width: 330px;
+        top: 35px;
+        left: 12px;
+    }
 
     #secc2-aside{
         background-color:white;
@@ -651,7 +657,7 @@ footer{
 
     .secc4{
         height: 250px;
-        padding: 10px 10px;
+        padding: 10px 5px;
         align-items: center;
         justify-content: center;
     }
@@ -719,6 +725,7 @@ footer{
     }
 
     #secc6-titulo{
+        width: 340px;
         font-size: 25px;
         padding: 0px;
     }
@@ -736,7 +743,7 @@ footer{
     }
 
     .letra-secc6{
-        width: 170px;
+        width: 120px;
         font-size: 13px;
     }
 
@@ -770,6 +777,7 @@ footer{
     }
 
     .secc7{
+        width: 350px;
         height: 40vh;
         padding: 10px 0px;
     }
