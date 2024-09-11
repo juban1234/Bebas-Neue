@@ -365,6 +365,7 @@ p{
 
 #contenido-secc6{
     display: flex;
+    align-items: center;
     flex-direction: row;
 }
 
@@ -545,9 +546,11 @@ footer{
     }
 
     #subencabesado1 {
-        padding: 0px;
+        padding: 10px 0px;
         width: 350px;
         position: static;
+        align-items: center;
+        text-align: center;
     }
 
     #boton-encabesado1{
@@ -607,12 +610,16 @@ footer{
         display: none;
     }
 
-    .secc2{
-        height: 350px;
+    .secc2 {
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #secc2-titulo{
         font-size: 33px;
+        position: static;
     }
 
     #secc2-image1{
@@ -621,10 +628,20 @@ footer{
     }
 
     #secc2-p{
-        width: 330px;
-        top: 35px;
-        left: 12px;
+        width: 300px;
+        position: static;
     }
+
+    .secc2-buton{
+        position: static;
+    }
+
+    #secc2-texto {
+        width: 300px;
+        text-align: center;
+        align-items: center;
+    }
+
 
     #secc2-aside{
         background-color:white;
@@ -643,17 +660,18 @@ footer{
 
     #secc3-texto{
         padding: 5px 0px;
-        width: 350px;
+        width: 320px;
     }
 
-    p{
+    p {
         font-size: 13px;
+        width: 85%;
     }
 
     #secc3-imagen{
         padding: 5px 0px;
         width: 350px;
-    }
+    }   
 
     .secc4{
         height: 250px;
@@ -667,13 +685,14 @@ footer{
     }
 
     #secc4-texto{
-        width: 350px;
-        text-align: center;
+        width: 320px;
     }
 
-    #contenedor-secc4{
+    #contenedor-secc4 {
         width: 350px;
         position: static;
+        text-align: center;
+        align-items: center;
     }
 
     .titulos2{
@@ -686,6 +705,8 @@ footer{
 
     #secc5-posicion {
         position: static;
+        text-align: center;
+        align-items: center;
     }
     
     .secc5{
@@ -710,31 +731,30 @@ footer{
         width: 340px;
     }
 
-    #secc6{
-        height: 800px;
+    .secc6{
+        width: 100%;
+        height: min-content;
     }
 
-    #contenido-secc6{
-        height: 900px;
+    #contenido-secc6 {
+        height: 650px;
         width: 350px;
-        position: relative;
-        bottom: 150px;
+        position: static;
         flex-direction: column-reverse;
-        align-items: flex-start;
-        justify-content: flex-start
+        justify-content: flex-end;
     }
 
-    #secc6-titulo{
-        width: 340px;
+    #secc6-titulo {
+        width: 320px;
         font-size: 25px;
         padding: 0px;
     }
 
-    #secc6-text{
+        #secc6-text {
+        position: static;
+        text-align: center;
         padding: 10px 5px;
         width: 300px;
-        left: 0px;
-        top: 0px;
     }
 
     #secc6-formulario{
@@ -749,7 +769,7 @@ footer{
 
     #mapa{
         width: 300px;
-        height: 300px;
+        height: 200px;
     }
 
     #form-group1{
@@ -776,9 +796,9 @@ footer{
 
     }
 
-    .secc7{
-        width: auto;
-        height: 40vh;
+    .secc7 {
+        height: min-content;
+        width: 100%;
         padding: 5px 0px;
     }
 
@@ -790,8 +810,8 @@ footer{
         font-size: 18px;
     }
 
-    footer{
-        height: 400px;
+    footer {
+        height: 330px;
     }
 
     #linea{
